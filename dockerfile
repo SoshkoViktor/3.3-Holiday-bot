@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
+HEALTHCHECK NONE
+
 CMD ["node", "index.js"]
